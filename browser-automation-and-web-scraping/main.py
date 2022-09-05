@@ -24,12 +24,12 @@ def get_driver():
   
   return driver
 
-
 def main():
   driver = get_driver()
-  element = driver.find_element(By.XPATH ,"/html/body/main/h1")
-  return element
+  print(getTempareture(driver))
 
+def getTempareture(driver):
+  element = driver.find_element(By.ID ,"unit")
+  return element.text
 
-print(main())
-
+main()
