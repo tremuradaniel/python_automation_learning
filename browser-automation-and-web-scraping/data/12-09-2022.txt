@@ -1,0 +1,6 @@
+15:26:58 - 0 degrees Celsius
+15:27:01 - 26 degrees Celsius
+15:27:04 - 26 degrees Celsius
+15:27:07 - -5 degrees Celsius
+15:27:11 - 20 degrees Celsius
+15:27:14 - 20 degrees Celsius
