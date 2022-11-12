@@ -29,7 +29,7 @@ def main():
   print(getTempareture(driver))
 
 def getTempareture(driver):
-  element = driver.find_element(By.ID ,"unit")
+  element = driver.find_element(By.XPATH ,"//*[@id='main-container']/section[3]/div/div[1]/div[2]/div/div[2]/div[2]/form/div/div[1]/div[1]/div/div/div[1]/p[2]")
   return element.text
 
 main()
